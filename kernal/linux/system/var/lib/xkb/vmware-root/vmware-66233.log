@@ -1,0 +1,56 @@
+2015-05-25T07:26:29.277-08:00| modconfig| I120: Log for appLoader pid=66233 version=9.9.2 build=build-2496486 option=Release
+2015-05-25T07:26:29.277-08:00| modconfig| I120: The process is 64-bit.
+2015-05-25T07:26:29.277-08:00| modconfig| I120: Host codepage=UTF-8 encoding=UTF-8
+2015-05-25T07:26:29.277-08:00| modconfig| I120: Host is Linux 2.6.32-431.el6.x86_64 CentOS release 6.5 (Final)
+2015-05-25T07:26:29.276-08:00| modconfig| I120: DictionaryLoad: Cannot open file "/etc/vmware/config": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Msg_Reset:
+2015-05-25T07:26:29.276-08:00| modconfig| I120: [msg.dictionary.load.openFailed] Cannot open file "/etc/vmware/config": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: ----------------------------------------
+2015-05-25T07:26:29.276-08:00| modconfig| I120: PREF Optional preferences file not found at /etc/vmware/config. Using default values.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: DictionaryLoad: Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Msg_Reset:
+2015-05-25T07:26:29.276-08:00| modconfig| I120: [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/settings": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: ----------------------------------------
+2015-05-25T07:26:29.276-08:00| modconfig| I120: PREF Optional preferences file not found at /usr/lib/vmware/settings. Using default values.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: DictionaryLoad: Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Msg_Reset:
+2015-05-25T07:26:29.276-08:00| modconfig| I120: [msg.dictionary.load.openFailed] Cannot open file "/usr/lib/vmware/config": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: ----------------------------------------
+2015-05-25T07:26:29.276-08:00| modconfig| I120: PREF Optional preferences file not found at /usr/lib/vmware/config. Using default values.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Could not expand environment variable HOME.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: DictionaryLoad: Cannot open file "~/.vmware/config": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Msg_Reset:
+2015-05-25T07:26:29.276-08:00| modconfig| I120: [msg.dictionary.load.openFailed] Cannot open file "~/.vmware/config": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: ----------------------------------------
+2015-05-25T07:26:29.276-08:00| modconfig| I120: PREF Optional preferences file not found at ~/.vmware/config. Using default values.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Could not expand environment variable HOME.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: PREF Unable to check permissions for preferences file.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: DictionaryLoad: Cannot open file "~/.vmware/preferences": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: Msg_Reset:
+2015-05-25T07:26:29.276-08:00| modconfig| I120: [msg.dictionary.load.openFailed] Cannot open file "~/.vmware/preferences": No such file or directory.
+2015-05-25T07:26:29.276-08:00| modconfig| I120: ----------------------------------------
+2015-05-25T07:26:29.276-08:00| modconfig| I120: PREF Failed to load user preferences.
+2015-05-25T07:26:29.277-08:00| modconfig| I120: Initialized!  Lets do this thing...
+2015-05-25T07:26:29.315-08:00| modconfig| I120: Obtaining info using the running kernel.
+2015-05-25T07:26:29.315-08:00| modconfig| I120: Created new pathsHash.
+2015-05-25T07:26:29.315-08:00| modconfig| I120: Setting header path for 2.6.32-431.el6.x86_64 to "/lib/modules/2.6.32-431.el6.x86_64/build/include".
+2015-05-25T07:26:29.315-08:00| modconfig| I120: Validating path "/lib/modules/2.6.32-431.el6.x86_64/build/include" for kernel release "2.6.32-431.el6.x86_64".
+2015-05-25T07:26:29.346-08:00| modconfig| I120: Failed to find /lib/modules/2.6.32-431.el6.x86_64/build/include/generated/utsrelease.h
+2015-05-25T07:26:29.347-08:00| modconfig| I120: using /usr/bin/gcc for preprocess check
+2015-05-25T07:26:29.369-08:00| modconfig| I120: Preprocessed UTS_RELEASE, got value "2.6.32-431.el6.x86_64".
+2015-05-25T07:26:29.369-08:00| modconfig| I120: The header path "/lib/modules/2.6.32-431.el6.x86_64/build/include" for the kernel "2.6.32-431.el6.x86_64" is valid.  Whoohoo!
+2015-05-25T07:26:29.465-08:00| modconfig| I120: found symbol version file /lib/modules/2.6.32-431.el6.x86_64/build/Module.symvers
+2015-05-25T07:26:29.465-08:00| modconfig| I120: Reading symbol versions from /lib/modules/2.6.32-431.el6.x86_64/build/Module.symvers.
+2015-05-25T07:26:29.499-08:00| modconfig| I120: Read 11124 symbol versions
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmci module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmblock module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vsock module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Setting vsock to depend on vmci.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmhgfs module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Setting vmhgfs to depend on vmci.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmxnet module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmxnet3 module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmmemctl module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the vmsync module.
+2015-05-25T07:26:29.524-08:00| modconfig| I120: Reading in info for the pvscsi module.
+2015-05-25T07:26:29.583-08:00| modconfig| I120: We are now shutdown.  Ready to die!

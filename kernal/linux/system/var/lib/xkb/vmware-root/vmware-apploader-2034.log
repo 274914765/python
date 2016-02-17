@@ -1,0 +1,52 @@
+2015-05-26T03:56:00.760-08:00| appLoader| I120: Log for appLoader pid=2034 version=9.9.2 build=build-2496486 option=Release
+2015-05-26T03:56:00.760-08:00| appLoader| I120: The process is 64-bit.
+2015-05-26T03:56:00.760-08:00| appLoader| I120: Host codepage=UTF-8 encoding=UTF-8
+2015-05-26T03:56:00.760-08:00| appLoader| I120: Host is Linux 2.6.32-431.el6.x86_64 CentOS release 6.5 (Final)
+2015-05-26T03:56:00.777-08:00| appLoader| I120: Invocation: "/usr/sbin/vmtoolsd --cmd info-get guestinfo.vprint.thinprintBackend"
+2015-05-26T03:56:00.777-08:00| appLoader| I120: Calling: "/usr/sbin/vmtoolsd --cmd info-get guestinfo.vprint.thinprintBackend"
+2015-05-26T03:56:00.777-08:00| appLoader| I120: VMDEVEL not set.
+2015-05-26T03:56:00.777-08:00| appLoader| I120: VMWARE_SHIPPED_LIBS_LIST is not set.
+2015-05-26T03:56:00.777-08:00| appLoader| I120: VMWARE_SYSTEM_LIBS_LIST is not set.
+2015-05-26T03:56:00.777-08:00| appLoader| I120: VMWARE_USE_SHIPPED_LIBS is not set.
+2015-05-26T03:56:00.777-08:00| appLoader| I120: VMWARE_USE_SYSTEM_LIBS is not set.
+2015-05-26T03:56:00.777-08:00| appLoader| I120: Using configuration file /etc/vmware-tools/config.
+2015-05-26T03:56:00.777-08:00| appLoader| I120: Using library directory:  /usr/lib/vmware-tools.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Shipped glib version is 2.24
+2015-05-26T03:56:00.778-08:00| appLoader| I120: System glib version is 2.26
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Using system version of glib.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Detected VMware library libvmtoolsd.so.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libvmtoolsd.so node as SHIPPED.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgcc_s.so.1 node as INVALID.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Detected VMware library libvmtools.so.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libvmtools.so node as SHIPPED.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgthread-2.0.so.0 node as INVALID.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgobject-2.0.so.0 node as INVALID.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgmodule-2.0.so.0 node as INVALID.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libglib-2.0.so.0 node as INVALID.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Created dependency tree.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: -- Processing libglib-2.0.so.0 --
+2015-05-26T03:56:00.778-08:00| appLoader| I120: GLib: glib_major_version: Comparing 2 with 2
+2015-05-26T03:56:00.778-08:00| appLoader| I120: GLib: glib_minor_version: Comparing 26 with 26
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libglib-2.0.so.0 validator returned true.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libglib-2.0.so.0 node as SYSTEM.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: -- Finished processing libglib-2.0.so.0 --
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgmodule-2.0.so.0 node as SYSTEM.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgobject-2.0.so.0 node as SYSTEM.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgthread-2.0.so.0 node as SYSTEM.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: Marking libgcc_s.so.1 node as SYSTEM.
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libvmtools.so <SHIPPED>
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libgmodule-2.0.so.0 <SYSTEM>
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libglib-2.0.so.0 <SYSTEM>
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libgthread-2.0.so.0 <SYSTEM>
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libvmtoolsd.so <SHIPPED>
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libgcc_s.so.1 <SYSTEM>
+2015-05-26T03:56:00.778-08:00| appLoader| I120: libgobject-2.0.so.0 <SYSTEM>
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Shipped glib version is 2.24
+2015-05-26T03:56:00.779-08:00| appLoader| I120: System glib version is 2.26
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Using system version of glib.
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Loading system version of libglib-2.0.so.0.
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Loading system version of libgmodule-2.0.so.0.
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Loading system version of libgthread-2.0.so.0.
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Loading system version of libgobject-2.0.so.0.
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Loading shipped version of libvmtools.so.
+2015-05-26T03:56:00.779-08:00| appLoader| I120: Loading system version of libgcc_s.so.1.

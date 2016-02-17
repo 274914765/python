@@ -1,0 +1,44 @@
+2015-05-26T07:35:57.846-08:00| appLoader| I120: Log for appLoader pid=103638 version=9.9.2 build=build-2496486 option=Release
+2015-05-26T07:35:57.846-08:00| appLoader| I120: The process is 64-bit.
+2015-05-26T07:35:57.846-08:00| appLoader| I120: Host codepage=UTF-8 encoding=UTF-8
+2015-05-26T07:35:57.846-08:00| appLoader| I120: Host is Linux 2.6.32-431.el6.x86_64 CentOS release 6.5 (Final)
+2015-05-26T07:35:58.083-08:00| appLoader| I120: Invocation: "/usr/lib/vmware-tools/sbin/vmware-modconfig-console --install-status"
+2015-05-26T07:35:58.083-08:00| appLoader| I120: Calling: "/usr/lib/vmware-tools/sbin/vmware-modconfig-console --install-status"
+2015-05-26T07:35:58.083-08:00| appLoader| I120: VMDEVEL not set.
+2015-05-26T07:35:58.083-08:00| appLoader| I120: VMWARE_SHIPPED_LIBS_LIST is not set.
+2015-05-26T07:35:58.083-08:00| appLoader| I120: VMWARE_SYSTEM_LIBS_LIST is not set.
+2015-05-26T07:35:58.083-08:00| appLoader| I120: VMWARE_USE_SHIPPED_LIBS is not set.
+2015-05-26T07:35:58.083-08:00| appLoader| I120: VMWARE_USE_SYSTEM_LIBS is not set.
+2015-05-26T07:35:58.083-08:00| appLoader| I120: Using configuration file /etc/vmware-tools/config.
+2015-05-26T07:35:58.095-08:00| appLoader| I120: Using library directory:  /usr/lib/vmware-tools.
+2015-05-26T07:35:58.154-08:00| appLoader| I120: Shipped glib version is 2.24
+2015-05-26T07:35:58.155-08:00| appLoader| I120: System glib version is 2.26
+2015-05-26T07:35:58.155-08:00| appLoader| I120: Using system version of glib.
+2015-05-26T07:35:58.155-08:00| appLoader| I120: Detected VMware library libvmware-modconfig-console.so.
+2015-05-26T07:35:58.155-08:00| appLoader| I120: Marking libvmware-modconfig-console.so node as SHIPPED.
+2015-05-26T07:35:58.236-08:00| appLoader| I120: Marking libgcc_s.so.1 node as INVALID.
+2015-05-26T07:35:58.236-08:00| appLoader| I120: Marking libz.so.1 node as INVALID.
+2015-05-26T07:35:58.265-08:00| appLoader| I120: Marking libxml2.so.2 node as INVALID.
+2015-05-26T07:35:58.265-08:00| appLoader| I120: Marking libglib-2.0.so.0 node as INVALID.
+2015-05-26T07:35:58.370-08:00| appLoader| I120: Created dependency tree.
+2015-05-26T07:35:58.370-08:00| appLoader| I120: -- Processing libglib-2.0.so.0 --
+2015-05-26T07:35:58.370-08:00| appLoader| I120: GLib: glib_major_version: Comparing 2 with 2
+2015-05-26T07:35:58.370-08:00| appLoader| I120: GLib: glib_minor_version: Comparing 26 with 26
+2015-05-26T07:35:58.370-08:00| appLoader| I120: libglib-2.0.so.0 validator returned true.
+2015-05-26T07:35:58.370-08:00| appLoader| I120: Marking libglib-2.0.so.0 node as SYSTEM.
+2015-05-26T07:35:58.370-08:00| appLoader| I120: -- Finished processing libglib-2.0.so.0 --
+2015-05-26T07:35:58.410-08:00| appLoader| I120: Marking libxml2.so.2 node as SHIPPED.
+2015-05-26T07:35:58.410-08:00| appLoader| I120: Marking libz.so.1 node as SYSTEM.
+2015-05-26T07:35:58.410-08:00| appLoader| I120: Marking libgcc_s.so.1 node as SYSTEM.
+2015-05-26T07:35:58.410-08:00| appLoader| I120: libglib-2.0.so.0 <SYSTEM>
+2015-05-26T07:35:58.410-08:00| appLoader| I120: libvmware-modconfig-console.so <SHIPPED>
+2015-05-26T07:35:58.410-08:00| appLoader| I120: libgcc_s.so.1 <SYSTEM>
+2015-05-26T07:35:58.410-08:00| appLoader| I120: libxml2.so.2 <SHIPPED>
+2015-05-26T07:35:58.410-08:00| appLoader| I120: libz.so.1 <SYSTEM>
+2015-05-26T07:35:58.411-08:00| appLoader| I120: Shipped glib version is 2.24
+2015-05-26T07:35:58.411-08:00| appLoader| I120: System glib version is 2.26
+2015-05-26T07:35:58.411-08:00| appLoader| I120: Using system version of glib.
+2015-05-26T07:35:58.411-08:00| appLoader| I120: Loading shipped version of libxml2.so.2.
+2015-05-26T07:35:58.451-08:00| appLoader| I120: Loading system version of libglib-2.0.so.0.
+2015-05-26T07:35:58.451-08:00| appLoader| I120: Loading system version of libz.so.1.
+2015-05-26T07:35:58.451-08:00| appLoader| I120: Loading system version of libgcc_s.so.1.
